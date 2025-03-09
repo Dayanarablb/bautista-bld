@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Tu Salud</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav>
+        <div class="logo-container">
+            <img src="css/logotipo.png" alt="Logotipo" class="logo-nav">
+            <h2>Tu Salud</h2>
+        </div>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Médicos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="login-container">
+        <div class="login-box">
+            <img src="css/logotipo.png" alt="Logotipo" class="logo">
+            <h2>Tu Salud</h2>
+            <p>Cuidamos tus datos, mejoramos tu salud.</p>
+            
+            <form>
+                <div class="input-container">
+                    <input type="text" placeholder="Usuario" required>
+                </div>
+                <div class="input-container">
+                    <input type="password" placeholder="Contraseña" required>
+                </div>
+                <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+                <button type="submit" class="login-button">Login</button>
+                
+                <p class="or-text">O inicia sesión con</p>
+                
+                <div class="social-login">
+                    <button class="google-login">
+                        <img src="css/google.png" alt="Google"> Google
+                    </button>
+                    <button class="facebook-login">
+                        <img src="css/facebook.png" alt="Facebook"> Facebook
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
